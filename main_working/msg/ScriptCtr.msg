@@ -1,0 +1,6 @@
+std_msgs/UInt8 kafkaPushCtrStatus
+std_msgs/UInt8 fdfsPushCtrStatus
+std_msgs/UInt8 predictCtrStatus
+std_msgs/UInt8 dataRecordCtrStatus
+std_msgs/UInt8 onliveCtrStatus
+

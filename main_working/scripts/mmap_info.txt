@@ -1,0 +1,1 @@
+predict=4,kafka=4,fdfs=4,dataRC=4,onlive=24

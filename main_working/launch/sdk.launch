@@ -1,0 +1,54 @@
+<launch>
+    <node pkg="dji_sdk" type="dji_sdk_node" name="dji_sdk" output="screen" respawn="false">
+    <!-- node parameters -->
+    <param name="serial_name" type="string" value="/dev/ttyTHS2"/>
+    <param name="baud_rate" type="int" value="921600"/>
+    <param name="app_id" type="int" value="1076649"/>
+    <param name="app_version" type="int" value="1"/>
+    <param name="align_time" type="bool" value="false"/>
+    <param name="enc_key" type="string" value="b9a24e356e838144e7df9172e75e99b033e851e4f18712c13fe361d9f139cf7e"/>
+    <param name="use_broadcast" type="bool" value="false"/>
+    </node>
+
+
+    <!--node pkg="dji_sdk" type="m600_air" name="m600_air" output="screen" respawn="true"/-->
+    <!--node pkg="dji_sdk" type="m600_gimbal" name="m600_gimbal" output="screen" respawn="true"/-->
+    <!--node pkg="dji_sdk" type="video_save.py" name="video_save" output="screen" respawn="true"/-->
+    <!--node pkg="dji_sdk" type="fu_script_ctr.py" name="fu_script_ctr" output="screen" respawn="true"/-->
+</launch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
